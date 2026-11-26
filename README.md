@@ -155,5 +155,3 @@ An analysis includes the source document, extracted requirement categories, sour
 - Add authentication, persistent project workspaces, durable audit storage, and deployment monitoring.
 - Validate the scoring framework with hospitality engineering teams and project outcomes.
 =======
-# sdlc-select
->>>>>>> 2d51a48e843527f5dc53e4aaea9fde24f7da7b92
