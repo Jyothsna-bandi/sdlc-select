@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HospitaLytics
 
 **AI-Based Requirement Analysis and Intelligent SDLC Recommendation System for Hospitality Management**
@@ -153,3 +154,6 @@ An analysis includes the source document, extracted requirement categories, sour
 - Add requirement traceability matrices, acceptance-criteria generation, and stakeholder review.
 - Add authentication, persistent project workspaces, durable audit storage, and deployment monitoring.
 - Validate the scoring framework with hospitality engineering teams and project outcomes.
+=======
+# sdlc-select
+>>>>>>> 2d51a48e843527f5dc53e4aaea9fde24f7da7b92
