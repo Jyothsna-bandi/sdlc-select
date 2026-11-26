@@ -1,0 +1,46 @@
+Project Name: Resort Management System
+
+Project overview
+The multi-property resort platform coordinates room and activity reservations, guest profiles, spa bookings, billing, and staff operations across several resort locations. It handles sensitive guest and payment information and integrates with external booking and property systems.
+
+Objectives
+- Give guests a consistent reservation experience across resort properties.
+- Coordinate activities and room inventory in real time.
+- Protect sensitive guest information and support reliable operations.
+
+Stakeholders: Guests, Resort manager, Front-desk teams, Spa staff, Activity coordinators, Housekeeping, Finance, Security and compliance team
+
+Functional requirements
+FR-01 Guests shall search rooms and resort activities across multiple properties by date and party size.
+FR-02 Guests can create, modify, or cancel room and activity reservations subject to property policies.
+FR-03 Staff must manage room availability, housekeeping status, and activity capacity.
+FR-04 The system shall consolidate guest invoices across accommodation, dining, spa, and activities.
+FR-05 Managers can generate property-level and group-level occupancy and revenue reports.
+FR-06 The platform should maintain guest preferences for use during future stays.
+FR-07 The system must synchronize reservations with external booking channels.
+FR-08 Security administrators shall review access logs and manage staff permissions.
+
+Non-functional requirements
+NFR-01 Reservation availability must update across properties within 5 seconds.
+NFR-02 The platform shall support 5000 concurrent users during seasonal demand.
+NFR-03 Guest profiles and payment information must be encrypted and access-controlled.
+NFR-04 The service should maintain 99.95% availability with tested disaster recovery.
+NFR-05 Reservation search should return results within 3 seconds at peak load.
+NFR-06 Guest data handling must comply with applicable privacy and payment regulations.
+
+Technical requirements
+The platform must integrate with property-management systems, payment services, and external booking channels.
+The system will expose authenticated APIs to approved partner services.
+Automated deployment and monitoring are required for frequent controlled releases.
+
+Constraints
+The existing property systems must continue operating during phased migration.
+The launch deadline is fixed before the next peak season.
+Detailed integration specifications are dependent on third-party providers.
+
+Assumptions
+Each property will assign a data owner and technical contact during migration.
+Requirements for guest-facing activities may change after pilot feedback.
+
+Risks
+Payment failure, privacy exposure, booking synchronization delays, and multi-property outage are high-impact risks.

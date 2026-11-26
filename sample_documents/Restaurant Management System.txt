@@ -1,0 +1,35 @@
+Project Name: Restaurant Management System
+
+Project overview
+The platform supports table reservations, digital food orders, kitchen preparation tracking, and daily sales reporting for a restaurant group. Managers and restaurant staff will review workflows in short feedback cycles.
+
+Objectives
+- Improve order accuracy between service staff and the kitchen.
+- Provide managers with timely sales and table utilization information.
+
+Stakeholders: Diners, Restaurant manager, Servers, Kitchen staff, Finance team
+
+Functional requirements
+FR-01 Diners shall reserve a table by selecting a date, time, party size, and location.
+FR-02 Servers can create, edit, and submit food orders to the kitchen.
+FR-03 Kitchen staff shall update each order as received, preparing, or ready.
+FR-04 The system must calculate a bill including taxes, discounts, and tip.
+FR-05 Managers can view daily revenue and menu item sales reports.
+FR-06 The system should allow managers to update menu items and mark items unavailable.
+
+Non-functional requirements
+NFR-01 Order status updates should be visible to staff within 2 seconds.
+NFR-02 The system must protect diner contact details and payment data.
+NFR-03 The service should support 300 concurrent staff and diners during peak periods.
+NFR-04 The system shall be available during all restaurant operating hours.
+
+Technical requirements
+The platform must integrate with a payment gateway and existing point-of-sale terminals.
+The application will provide a browser-based staff interface and a mobile-friendly guest interface.
+
+Constraints
+Existing point-of-sale terminals must remain operational during rollout.
+Menu and service workflows may evolve after staff feedback during pilot releases.
+
+Dependencies
+Payment processing depends on the selected payment service provider.

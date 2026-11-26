@@ -1,0 +1,34 @@
+Project Name: Hotel Reservation Management System
+
+Project overview
+The system provides an online reservation and front-desk workspace for a single city hotel. Guests can search room availability, make reservations, and receive confirmations. Front-desk staff manage arrivals, departures, and room status.
+
+Objectives
+- Reduce errors in room allocation and reservation handling.
+- Give guests a clear booking and cancellation experience.
+
+Stakeholders: Guests, Front-desk staff, Hotel manager, Housekeeping team, Payment provider
+
+Functional requirements
+FR-01 The system shall allow a guest to search available rooms by date, occupancy, and room type.
+FR-02 Guests can create a reservation and receive a confirmation email.
+FR-03 The system must allow guests to cancel a reservation before the stated cancellation deadline.
+FR-04 Front-desk staff shall check guests in and out and update room status.
+FR-05 Managers can generate occupancy and revenue reports for a selected date range.
+
+Non-functional requirements
+NFR-01 Search results should load within 3 seconds for 500 concurrent users.
+NFR-02 Booking and payment information must be encrypted in transit and at rest.
+NFR-03 The service should maintain 99.5% monthly availability.
+NFR-04 The booking interface should be easy to use on mobile devices.
+
+Technical requirements
+The application shall integrate with the hotel's payment gateway and email service.
+The system will use the existing property database for room inventory.
+
+Constraints
+The first release is limited to one property and must be ready before the summer season.
+Reservation changes are expected to be stable after the booking rules are approved.
+
+Assumptions
+The property will provide room inventory and cancellation policies before development.
