@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # HospitaLytics
 
 **AI-Based Requirement Analysis and Intelligent SDLC Recommendation System for Hospitality Management**
